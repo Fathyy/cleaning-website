@@ -13,7 +13,7 @@ export default function Services() {
     <div className="bg-[#F5F5F5] my-32 py-16">
       <div className="container mx-auto sm:px-16 px-6">
         <div className="mt-8">
-          <h2 className="text-center text-4xl font-bold mb-8 text-lightBlue">
+          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-lightBlue">
             Our Services
           </h2>
         </div>

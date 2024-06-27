@@ -10,6 +10,7 @@ import sofasetCleaning from "./sofaset-cleaning.jpg";
 import quoteIcon from "./quote-icon.svg";
 import mwanaisha from "./mwanaisha.png";
 import testimonialBg from "./testimonialBg.png";
+import contactGradient from "./contactGradient.png";
 
 
 
@@ -25,5 +26,6 @@ export {
     sofasetCleaning,
     quoteIcon,
     mwanaisha,
-    testimonialBg
+    testimonialBg,
+    contactGradient
 }
