@@ -5,3 +5,30 @@
 img{
     width: 100%;
 }
+
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+    font-size: 40px;
+    padding: 10px;
+  }
+  .slick-slide{
+    margin: 0 10px;
+  }
+  
+
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    z-index: 1; 
+  }
+  
+  .slick-prev {
+    left: -25px; 
+  }
+  
+  .slick-next {
+    right: -25px; 
+  }
+  
+ 

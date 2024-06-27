@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="container mx-auto sm:px-16 px-6">
             <nav className="flex items-center justify-between py-6">
                 <div className="">
-                    <p className="font-bold text-xl">Cleaning <span className="text-lightBlue">Services</span></p>
+                    <p className="font-bold text-3xl">Cleaning <span className="text-lightBlue">Services</span></p>
                 </div>
 
                 <ul className="flex items-center gap-5">

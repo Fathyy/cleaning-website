@@ -23,7 +23,7 @@ export default function AboutUs() {
         </div>
 
         <div className="flex-1">
-          <h3 className="text-lightBlue text-4xl mb-4">About Us</h3>
+          <h3 className="text-lightBlue text-3xl font-bold mb-4">About Us</h3>
           <h2 className="mb-6 text-4xl font-semibold">Your Trusted Cleaning Partner</h2>
           <p className="mb-6">
             Professional Deep Cleaning Services 1217 specializes in providing
