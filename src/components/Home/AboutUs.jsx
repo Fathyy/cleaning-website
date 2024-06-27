@@ -21,11 +21,11 @@ export default function AboutUs() {
         </div>
 
         <div className="flex-1">
-          <h3 className="text-lightBlue text-2xl sm:text-3xl md:text-4xl font-bold mb-4">About Us</h3>
-          <h2 className="mb-6 text-2xl sm:text-3xl md:text-4xl font-semibold">
+          <h3 className="text-lightBlue text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center sm:text-start">About Us</h3>
+          <h2 className="mb-6 text-2xl sm:text-3xl md:text-4xl font-semibold text-center sm:text-start">
             Your Trusted Cleaning Partner
           </h2>
-          <p className="mb-6">
+          <p className="mb-6 text-center sm:text-start">
             Professional Deep Cleaning Services 1217 specializes in providing
             top-tier cleaning services. Our mission is to offer clients the
             freedom to focus on their passions and important activities by

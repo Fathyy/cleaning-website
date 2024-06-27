@@ -11,7 +11,6 @@ const Contact = () => {
           Any question or remarks? Just write us a message!
         </p>
       </div>
-
       {/* box */}
       <div className="flex gap-4 bg-white">
         <div className="contact-gradient px-6 py-12 rounded-lg">
