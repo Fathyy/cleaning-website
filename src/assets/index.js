@@ -7,6 +7,10 @@ import pestControl from "./pest-control.jpg";
 import postConstruction from "./post-construction.jpg";
 import postEvent from "./post-event.jpg";
 import sofasetCleaning from "./sofaset-cleaning.jpg";
+import quoteIcon from "./quote-icon.svg";
+import mwanaisha from "./mwanaisha.png";
+import testimonialBg from "./testimonialBg.png";
+
 
 
 export {
@@ -18,5 +22,8 @@ export {
     pestControl,
     postConstruction,
     postEvent,
-    sofasetCleaning
+    sofasetCleaning,
+    quoteIcon,
+    mwanaisha,
+    testimonialBg
 }

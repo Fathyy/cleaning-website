@@ -2,33 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-.slick-prev:before, .slick-next:before {
-    color: black !important;
-    font-size: 40px;
-    padding: 10px;
-  }
-  .slick-slide{
-    margin: 0 10px;
-  }
-  
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  font-size: 40px;
+  padding: 10px;
+}
+.slick-slide {
+  margin: 0 10px;
+}
 
-  .slick-prev, .slick-next {
-    position: absolute;
-    top: 50%; 
-    transform: translateY(-50%); 
-    z-index: 1; 
-  }
-  
-  .slick-prev {
-    left: -25px; 
-  }
-  
-  .slick-next {
-    right: -25px; 
-  }
-  
- 
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+.slick-next {
+  right: -25px;
+}
+.footer-bg {
+  background: linear-gradient(90deg, #086d1e 0%, #303a9e 100%);
+}
+.testimonial-bg {
+  background: hsla(184, 52%, 48%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(184, 52%, 48%, 1) 0%,
+    hsla(134, 36%, 53%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(184, 52%, 48%, 1) 0%,
+    hsla(134, 36%, 53%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(184, 52%, 48%, 1) 0%,
+    hsla(134, 36%, 53%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3BB1B9", endColorstr="#5CB270", GradientType=1 );
+}
+
+.divider {
+  height: 2px;
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0.6) 0%, #737373 100%);
+}
