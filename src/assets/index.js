@@ -13,6 +13,9 @@ import testimonialBg from "./testimonialBg.png";
 import contactGradient from "./contactGradient.png";
 import close from "./close.svg";
 import menu from "./menu.svg";
+import officeManager from "./office-manager.jpg";
+import secondManager from "./second-manager.jpg";
+import thirdTestimony from "./third-testimony.jpg";
 
 
 
@@ -31,5 +34,8 @@ export {
     testimonialBg,
     contactGradient,
     close,
-    menu
+    menu,
+    officeManager,
+    secondManager,
+    thirdTestimony
 }
