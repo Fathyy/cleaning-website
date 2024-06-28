@@ -4,16 +4,9 @@ const Testimonials = () => {
   return (
     <div className="mb-18 container mx-auto sm:px-16 px-6">
       <div className="flex flex-col items-center mb-4">
-        <h1 className="text-primaryBlue text-4xl font-bold leading-[66px]">
-          What
-          <span className="text-[#1C1C1C] text-4xl font-normal leading-[66px]">
-            {" "}
-            our clients Say
-          </span>
-          <span className="text-[#1C1C1C] text-[28px] font-normal leading-[66px]">
-            (Testimonials)
-          </span>
-        </h1>
+      <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-lightBlue">
+            What our clients say
+          </h2>
         <p className="text-[#333] text-[18px] font-normal leading-[26px]">
           We are proud to share the testimonials from our clients who have
           experienced our exceptional cleaning services. Their words of

@@ -107,3 +107,44 @@ img {
   background: linear-gradient(90deg, #475ba4 0%, #100b48 100%);
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
 }
+
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  margin: 0 6px;
+}
+
+.mySwiper .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px;
+}
+.swiper-scrollbar .swiper-scrollbar-horizontal{
+  display: none;
+}

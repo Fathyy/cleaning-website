@@ -7,10 +7,12 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="py-16">
-      <div className="flex justify-between ">
-        <div className="flex-1 mr-8">
-          <h2 className="font-bold text-3xl text-white mb-4">Cleaning Services</h2>
-          <p className="text-[#fff] text-[14px] font-light leading-[26px]">
+      <div className="flex flex-col lg:flex-row justify-between">
+        <div className="flex-1 mr-8 mb-8 lg:mb-0">
+          <h2 className="font-bold text-2xl md:text-3xl text-white mb-4">
+            Cleaning Services
+          </h2>
+          <p className="text-[#fff] text-lg md:text-xl font-light leading-[26px]">
             Professional Deep Cleaning Services 1217 specializes in providing
             top-tier cleaning services. Our mission is to offer clients the
             freedom to focus on their passions and important activities by
@@ -24,38 +26,41 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mr-8">
-          <h4 className="text-white text-[24px] font-bold">About</h4>
-          <ul className="">
-            <li className="text-white text-[16px] font-normal leading-[40px]">
-              <Link to="#">Services</Link>
-            </li>
-            <li className="text-white text-[16px] font-normal leading-[40px]">
-              <Link to="#">Contact</Link>
-            </li>
-            <li className="text-white text-[16px] font-normal leading-[40px]">
-              <Link to="#">FAQ</Link>
-            </li>
-            
-          </ul>
-        </div>
+        <div className="flex-1 flex flex-col md:flex-row justify-between">
+          <div className="flex flex-col lg:mr-8 mb-8 md:mb-0">
+            <h4 className="text-white text-[24px] font-bold">About</h4>
+            <ul className="">
+              <li className="text-white text-[16px] font-normal leading-[40px]">
+                <Link to="#">Services</Link>
+              </li>
+              <li className="text-white text-[16px] font-normal leading-[40px]">
+                <Link to="#">Contact</Link>
+              </li>
+              <li className="text-white text-[16px] font-normal leading-[40px]">
+                <Link to="#">FAQ</Link>
+              </li>
+            </ul>
+          </div>
 
-        <div className="flex flex-col mr-8">
-          <h4 className="text-white text-[24px] font-bold">Contact Us</h4>
-          <ul className="">
-            <li className="flex items-center  gap-2 text-white text-[16px] font-normal leading-[40px]">
-              <IoLocationSharp />
-              <Link to="#">OL16 Newhey Road Milnrow Rochdale Manchester</Link>
-            </li>
-            <li className="flex items-center  gap-2 text-white text-[16px] font-normal leading-[40px]">
-              <FaPhoneAlt />
-              <Link to="#">+447438712348</Link>
-            </li>
-            <li className="flex items-center  gap-2 text-white text-[16px] font-normal leading-[40px]">
-              <MdOutlineEmail />
-              <Link to="#">info@acaademicnow.org</Link>
-            </li>
-          </ul>
+          <div className="flex flex-col lg:mr-8 ">
+            <h4 className="text-white text-2xl md:text-3xl font-bold">
+              Contact Us
+            </h4>
+            <ul className="">
+              <li className="flex items-center gap-2 md:mb-6 text-white text-lg md:text-xl font-normal leading-[40px]">
+                <IoLocationSharp />
+                <Link to="#">OL16 Newhey Road Milnrow Rochdale Manchester</Link>
+              </li>
+              <li className="flex items-center gap-2 md:mb-6 text-white text-lg md:text-xl font-normal leading-[40px]">
+                <FaPhoneAlt />
+                <Link to="#">+447438712348</Link>
+              </li>
+              <li className="flex items-center gap-2 md:mb-6 text-white text-lg md:text-xl font-normal leading-[40px]">
+                <MdOutlineEmail />
+                <Link to="#">info@acaademicnow.org</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="w-full mt-2">

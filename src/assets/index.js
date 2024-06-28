@@ -11,6 +11,8 @@ import quoteIcon from "./quote-icon.svg";
 import mwanaisha from "./mwanaisha.png";
 import testimonialBg from "./testimonialBg.png";
 import contactGradient from "./contactGradient.png";
+import close from "./close.svg";
+import menu from "./menu.svg";
 
 
 
@@ -27,5 +29,7 @@ export {
     quoteIcon,
     mwanaisha,
     testimonialBg,
-    contactGradient
+    contactGradient,
+    close,
+    menu
 }

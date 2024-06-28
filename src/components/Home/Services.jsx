@@ -1,14 +1,11 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import { services } from "../../Constants";
 
 export default function Services() {
-  
-
   return (
     <div className="bg-[#F5F5F5] my-32 py-16">
       <div className="container mx-auto sm:px-16 px-6">
@@ -19,20 +16,29 @@ export default function Services() {
         </div>
 
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
-          slidesPerView={3}
           navigation
           pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
+          breakpoints={{
+            0: {slidesPerView: 1},
+            // when window width is >= 640px
+            768: {
+              slidesPerView: 2,
+            },
+            // when window width is >= 768px
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
         >
 
           {services.map((service) => (
             <SwiperSlide
               key={service.id}
-              className="whyus-card bg-white border border-1 flex flex-col items-center"
+              className="bg-white border border-1 flex flex-col items-center"
             >
               <img
                 src={service.img}
