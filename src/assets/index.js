@@ -17,6 +17,7 @@ import officeManager from "./office-manager.jpg";
 import secondManager from "./second-manager.jpg";
 import thirdTestimony from "./third-testimony.jpg";
 import aboutPhoto from "./about-photo.jpg";
+import contactPhoto from "./contact-photo.jpg";
 
 
 
@@ -39,5 +40,6 @@ export {
     officeManager,
     secondManager,
     thirdTestimony,
-    aboutPhoto
+    aboutPhoto,
+    contactPhoto
 }

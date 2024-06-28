@@ -2,7 +2,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
-const Contact = () => {
+const ContactUs = () => {
   return (
     <div className="mt-32 py-16 bg-[#F5F5F5]">
       <div className="container mx-auto sm:px-16 px-6">
@@ -131,4 +131,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactUs;

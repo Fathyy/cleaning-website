@@ -1,5 +1,9 @@
+import { FaqSection } from "../components";
+
 export default function FAQ() {
   return (
-    <div>FAQ</div>
+    <div>
+      <FaqSection />
+    </div>
   )
 }

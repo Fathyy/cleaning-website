@@ -1,5 +1,10 @@
+import { ContactIntro, ContactUs } from "../components";
+
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <ContactIntro />
+      <ContactUs/>
+    </div>
   )
 }
