@@ -1,5 +1,10 @@
+import { ServiceHero, ServicesList } from "../components";
+
 export default function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <ServiceHero />
+      <ServicesList />
+    </div>
   )
 }

@@ -52,7 +52,7 @@ export default function Services() {
                 <p className="text-center mb-6">{service.content}</p>
               </div>
               <div className="flex items-center justify-center">
-                <button className="mb-6 text-[#1C1C1C] text-[14px] font-semibold bg-[#FFCF59] rounded-[13px] px-6 py-3">
+                <button className="mb-6 text-[#1C1C1C] font-semibold bg-[#FFCF59] rounded-[13px] text-base md:text-lg px-4 p-2 md:px-6 md:py-3">
                   GET STARTED
                 </button>
               </div>

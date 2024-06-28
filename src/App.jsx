@@ -14,7 +14,7 @@ function App() {
           <Route path="/services" element={<Services />}></Route>
           <Route path="/faq" element={<FAQ />}></Route>
         </Routes>
-        <div className="footer-bg mt-32">
+        <div className="footer-bg">
           <div className="container mx-auto sm:px-16 px-6">
             <Footer />
           </div>

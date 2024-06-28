@@ -7,4 +7,6 @@ export { default as Testimonials } from './Home/Testimonials';
 export { default as Contact } from './Home/Contact';
 export { default as AboutHero } from './About/AboutHero';
 export { default as IntroAbout } from './About/IntroAbout';
+export { default as ServiceHero } from './Service/ServiceHero';
+export { default as ServicesList } from './Service/ServicesList';
 
