@@ -16,6 +16,7 @@ import menu from "./menu.svg";
 import officeManager from "./office-manager.jpg";
 import secondManager from "./second-manager.jpg";
 import thirdTestimony from "./third-testimony.jpg";
+import aboutPhoto from "./about-photo.jpg";
 
 
 
@@ -37,5 +38,6 @@ export {
     menu,
     officeManager,
     secondManager,
-    thirdTestimony
+    thirdTestimony,
+    aboutPhoto
 }

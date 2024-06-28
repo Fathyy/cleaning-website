@@ -5,4 +5,6 @@ export { default as AboutUs } from './Home/AboutUs';
 export { default as Services } from './Home/Services';
 export { default as Testimonials } from './Home/Testimonials';
 export { default as Contact } from './Home/Contact';
+export { default as AboutHero } from './About/AboutHero';
+export { default as IntroAbout } from './About/IntroAbout';
 

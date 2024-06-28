@@ -1,5 +1,10 @@
+import { AboutHero, IntroAbout } from "../components";
+
 export default function About() {
   return (
-    <div>About</div>
+    <div>
+      <AboutHero />
+      <IntroAbout />
+    </div>
   )
 }
