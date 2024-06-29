@@ -28,7 +28,7 @@ const ContactUs = () => {
             <div className="flex items-center gap-4 mb-6 mt-32">
               <FaPhoneAlt style={{ fontSize: "24px", color: "white" }} />
               <p className="text-white text-lg sm:text-xl font-normal">
-                Tel. +447438712348
+                Tel.+44 7438 712348
               </p>
             </div>
             <div className="flex items-center gap-4 mb-6">

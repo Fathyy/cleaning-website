@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 md:mb-6 text-white text-lg md:text-xl font-normal leading-[40px]">
                 <FaPhoneAlt />
-                <Link to="#">+447438712348</Link>
+                <Link to="#">+44 7438 712348</Link>
               </li>
               <li className="flex items-center gap-2 md:mb-6 text-white text-lg md:text-xl font-normal leading-[40px]">
                 <MdOutlineEmail />
