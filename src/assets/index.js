@@ -18,6 +18,9 @@ import secondManager from "./second-manager.jpg";
 import thirdTestimony from "./third-testimony.jpg";
 import aboutPhoto from "./about-photo.jpg";
 import contactPhoto from "./contact-photo.jpg";
+import cleaningCrew from "./cleaning-crew.jpg";
+import cleaningCrew2 from "./cleaning-crew2.jpg";
+import cleaningCustom from "./custom-cleaning.jpg";
 
 
 
@@ -41,5 +44,8 @@ export {
     secondManager,
     thirdTestimony,
     aboutPhoto,
-    contactPhoto
+    contactPhoto,
+    cleaningCrew,
+    cleaningCrew2,
+    cleaningCustom
 }

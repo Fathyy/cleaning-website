@@ -57,7 +57,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 md:mb-6 text-white text-lg md:text-xl font-normal leading-[40px]">
                 <MdOutlineEmail />
-                <Link to="#">info@acaademicnow.org</Link>
+                <Link to="#">ecoclean580@gmail.com</Link>
               </li>
             </ul>
           </div>

@@ -3,7 +3,7 @@ import { quoteIcon } from "../../assets";
 
 const Testimonials = () => {
   return (
-    <div className="mb-18 container mx-auto sm:px-16 px-6">
+    <div className="my-32 container mx-auto sm:px-16 px-6">
       <div className="flex flex-col items-center mb-4">
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-lightBlue">
           What our clients say

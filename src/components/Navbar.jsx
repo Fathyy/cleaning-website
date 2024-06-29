@@ -25,7 +25,7 @@ export default function Navbar() {
         <nav className="w-full flex items-center justify-between py-6 navbar">
           <div className="">
             <p className="font-bold text-2xl md:text-3xl">
-              Cleaning <span className="text-lightBlue">Services</span>
+              Eco <span className="text-lightBlue">Cleaning</span>
             </p>
           </div>
 

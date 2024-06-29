@@ -1,21 +1,21 @@
-import { aboutPic, aboutPic2 } from "../../assets";
+import { cleaningCrew, cleaningCustom } from "../../assets";
 import { FaCheckCircle } from "react-icons/fa";
 
 export default function AboutUs() {
   return (
-    <div className="container mx-auto sm:px-16 px-6 my-20">
+    <div className="container mx-auto sm:px-16 px-6 my-32">
       <div className="flex flex-col-reverse lg:flex-row gap-12">
-        <div className="relative flex-1">
+        <div className="relative flex-1 self-start">
           <img
-            src={aboutPic}
+            src={cleaningCrew}
             alt=""
             className="absolute bottom-[-15%] right-0 z-10 w-3/5 border-0 sm:border-7"
             // style={{ width: "60%", border: "7px solid white" }}
           />{" "}
           <img
-            src={aboutPic2}
+            src={cleaningCustom}
             alt=""
-            className="relative z-0 w-full"
+            className="relative z-0 w-full h-[50%]"
             // style={{ width: "100%" }}
           />{" "}
         </div>

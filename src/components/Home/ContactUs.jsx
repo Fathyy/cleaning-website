@@ -7,7 +7,7 @@ const ContactUs = () => {
     <div className="mt-32 py-16 bg-[#F5F5F5]">
       <div className="container mx-auto sm:px-16 px-6">
         <div className="flex flex-col items-center mb-8">
-          <h2 className="text-[#2A3280] text-3xl sm:text-4xl mb-2 font-bold">
+          <h2 className="text-lightBlue text-3xl sm:text-4xl mb-2 font-bold">
             Contact Us
           </h2>
           <p className="text-[#717171] text-lg sm:text-xl font-normal">
@@ -16,12 +16,12 @@ const ContactUs = () => {
         </div>
         {/* box */}
         <div className="flex flex-col lg:flex-row gap-4 bg-white">
-          <div className="contact-gradient px-6 py-12 rounded-lg">
+          <div className="testimonial-bg  px-6 py-12 rounded-lg">
             <div className="mb-8">
               <h4 className="text-white text-2xl sm:text-3xl font-semibold mb-4">
                 Contact Information
               </h4>
-              <p className="text-[#C9C9C9] text-lg sm:text-xl font-normal">
+              <p className="text-white text-lg sm:text-xl font-normal">
                 Fill the form and we will get back to you
               </p>
             </div>
@@ -34,7 +34,7 @@ const ContactUs = () => {
             <div className="flex items-center gap-4 mb-6">
               <MdOutlineEmail style={{ fontSize: "24px", color: "white" }} />
               <p className="text-white text-lg sm:text-xl font-normal">
-                info@acaademicnow.org
+              ecoclean580@gmail.com
               </p>
             </div>
             <div className="flex items-center gap-4 mb-6">
@@ -119,7 +119,7 @@ const ContactUs = () => {
               </div>
 
               <div className="flex items-center justify-end">
-                <button className="text-[white] font-medium text-lg md:text-xl button-contact px-4 p-2 md:px-8 md:py-4 mb-6">
+                <button className="text-[white] font-medium text-lg md:text-xl button-contact testimonial-bg px-4 p-2 md:px-8 md:py-4 mb-6">
                   Send Message
                 </button>
               </div>
